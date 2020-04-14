@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5971C454243D17AA00BA8B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C453243D17AA00BA8B59 /* AppDelegate.swift */; };
-		5971C456243D17AA00BA8B59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C455243D17AA00BA8B59 /* SceneDelegate.swift */; };
-		5971C458243D17AA00BA8B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C457243D17AA00BA8B59 /* ViewController.swift */; };
 		5971C45B243D17AA00BA8B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5971C459243D17AA00BA8B59 /* Main.storyboard */; };
 		5971C45D243D17AD00BA8B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5971C45C243D17AD00BA8B59 /* Assets.xcassets */; };
 		5971C460243D17AD00BA8B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5971C45E243D17AD00BA8B59 /* LaunchScreen.storyboard */; };
+		5971C46C243D202900BA8B59 /* CharactersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C46B243D202900BA8B59 /* CharactersAPI.swift */; };
+		5971C471243F578E00BA8B59 /* MarvelRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C470243F578E00BA8B59 /* MarvelRequestProtocol.swift */; };
+		5971C473243F581500BA8B59 /* MarvelRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C472243F581500BA8B59 /* MarvelRequest.swift */; };
+		5971C476243F59B800BA8B59 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C475243F59B800BA8B59 /* DataManager.swift */; };
+		5971C47C243F657000BA8B59 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C47B243F657000BA8B59 /* CharactersListViewController.swift */; };
+		5971C482243F67B900BA8B59 /* MarvelNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C481243F67B900BA8B59 /* MarvelNavigationController.swift */; };
+		5971C484243F692000BA8B59 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5971C483243F692000BA8B59 /* Colors.xcassets */; };
+		5971C486243F742B00BA8B59 /* MarvelCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C485243F742B00BA8B59 /* MarvelCharacter.swift */; };
+		5971C488243FAC8000BA8B59 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C487243FAC8000BA8B59 /* CharactersListViewModel.swift */; };
+		5971C48A243FBAFE00BA8B59 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C489243FBAFE00BA8B59 /* CharacterCollectionViewCell.swift */; };
+		5971C48D243FBE0100BA8B59 /* CharacterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5971C48C243FBE0100BA8B59 /* CharacterCollectionViewCell.xib */; };
+		5971C49224449A9400BA8B59 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C49124449A9400BA8B59 /* Colors.swift */; };
+		5971C4942444A14800BA8B59 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C4932444A14800BA8B59 /* UINavigationController+Extension.swift */; };
+		5971C4972444F56700BA8B59 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C4962444F56700BA8B59 /* CharacterDetailViewController.swift */; };
+		5971C4992445E47D00BA8B59 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C4982445E47D00BA8B59 /* UIViewController+Extension.swift */; };
+		5971C49B2446021300BA8B59 /* PriciestCharacterHQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C49A2446021300BA8B59 /* PriciestCharacterHQViewController.swift */; };
+		5971C49D2446054300BA8B59 /* PriciestCharacterHQViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C49C2446054300BA8B59 /* PriciestCharacterHQViewModel.swift */; };
+		5971C49F2446057600BA8B59 /* MarvelHQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971C49E2446057600BA8B59 /* MarvelHQ.swift */; };
+		DB7E4A7A4A984FA88674B7DB /* Pods_desafio_ios_romulo_mantovani.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04EC0091E7D36D25FE9ABE /* Pods_desafio_ios_romulo_mantovani.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ECC815A29D934F81DDF401D /* Pods-desafio-ios-romulo-mantovani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-romulo-mantovani.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-romulo-mantovani/Pods-desafio-ios-romulo-mantovani.release.xcconfig"; sourceTree = "<group>"; };
 		5971C450243D17AA00BA8B59 /* desafio-ios-romulo-mantovani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-romulo-mantovani.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5971C453243D17AA00BA8B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5971C455243D17AA00BA8B59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5971C457243D17AA00BA8B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5971C45A243D17AA00BA8B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5971C45C243D17AD00BA8B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5971C45F243D17AD00BA8B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5971C461243D17AD00BA8B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5971C46B243D202900BA8B59 /* CharactersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAPI.swift; sourceTree = "<group>"; };
+		5971C470243F578E00BA8B59 /* MarvelRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelRequestProtocol.swift; sourceTree = "<group>"; };
+		5971C472243F581500BA8B59 /* MarvelRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelRequest.swift; sourceTree = "<group>"; };
+		5971C475243F59B800BA8B59 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5971C47B243F657000BA8B59 /* CharactersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewController.swift; sourceTree = "<group>"; };
+		5971C481243F67B900BA8B59 /* MarvelNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelNavigationController.swift; sourceTree = "<group>"; };
+		5971C483243F692000BA8B59 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5971C485243F742B00BA8B59 /* MarvelCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacter.swift; sourceTree = "<group>"; };
+		5971C487243FAC8000BA8B59 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
+		5971C489243FBAFE00BA8B59 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		5971C48C243FBE0100BA8B59 /* CharacterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionViewCell.xib; sourceTree = "<group>"; };
+		5971C49124449A9400BA8B59 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5971C4932444A14800BA8B59 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		5971C4962444F56700BA8B59 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		5971C4982445E47D00BA8B59 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5971C49A2446021300BA8B59 /* PriciestCharacterHQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriciestCharacterHQViewController.swift; sourceTree = "<group>"; };
+		5971C49C2446054300BA8B59 /* PriciestCharacterHQViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriciestCharacterHQViewModel.swift; sourceTree = "<group>"; };
+		5971C49E2446057600BA8B59 /* MarvelHQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHQ.swift; sourceTree = "<group>"; };
+		CD04EC0091E7D36D25FE9ABE /* Pods_desafio_ios_romulo_mantovani.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_ios_romulo_mantovani.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42D0CE8FEAB05F526D8189B /* Pods-desafio-ios-romulo-mantovani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-romulo-mantovani.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-romulo-mantovani/Pods-desafio-ios-romulo-mantovani.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7E4A7A4A984FA88674B7DB /* Pods_desafio_ios_romulo_mantovani.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				5971C452243D17AA00BA8B59 /* desafio-ios-romulo-mantovani */,
 				5971C451243D17AA00BA8B59 /* Products */,
+				60F9056A08150CF358EAB605 /* Pods */,
+				D59FC90F2E9EFBAFE68A2C87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,192 @@
 		5971C452243D17AA00BA8B59 /* desafio-ios-romulo-mantovani */ = {
 			isa = PBXGroup;
 			children = (
-				5971C453243D17AA00BA8B59 /* AppDelegate.swift */,
-				5971C455243D17AA00BA8B59 /* SceneDelegate.swift */,
-				5971C457243D17AA00BA8B59 /* ViewController.swift */,
-				5971C459243D17AA00BA8B59 /* Main.storyboard */,
-				5971C45C243D17AD00BA8B59 /* Assets.xcassets */,
-				5971C45E243D17AD00BA8B59 /* LaunchScreen.storyboard */,
-				5971C461243D17AD00BA8B59 /* Info.plist */,
+				5971C468243D1D3400BA8B59 /* Assets */,
+				5971C46D243F56EB00BA8B59 /* Commons */,
+				5971C469243D1D5100BA8B59 /* Configs */,
+				5971C467243D1CEE00BA8B59 /* Networking */,
+				5971C46A243D1EBD00BA8B59 /* Sections */,
+				5971C47F243F674800BA8B59 /* Support */,
 			);
 			path = "desafio-ios-romulo-mantovani";
+			sourceTree = "<group>";
+		};
+		5971C467243D1CEE00BA8B59 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5971C46B243D202900BA8B59 /* CharactersAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5971C468243D1D3400BA8B59 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5971C45C243D17AD00BA8B59 /* Assets.xcassets */,
+				5971C483243F692000BA8B59 /* Colors.xcassets */,
+				5971C49124449A9400BA8B59 /* Colors.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5971C469243D1D5100BA8B59 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				5971C474243F598600BA8B59 /* Managers */,
+				5971C453243D17AA00BA8B59 /* AppDelegate.swift */,
+				5971C461243D17AD00BA8B59 /* Info.plist */,
+				5971C45E243D17AD00BA8B59 /* LaunchScreen.storyboard */,
+				5971C459243D17AA00BA8B59 /* Main.storyboard */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		5971C46A243D1EBD00BA8B59 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				5971C477243F652C00BA8B59 /* Characters */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		5971C46D243F56EB00BA8B59 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5971C46F243F575100BA8B59 /* Implementation */,
+				5971C46E243F573F00BA8B59 /* Interface */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		5971C46E243F573F00BA8B59 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5971C47E243F670C00BA8B59 /* Networking */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		5971C46F243F575100BA8B59 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5971C47D243F66FB00BA8B59 /* Networking */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5971C474243F598600BA8B59 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5971C475243F59B800BA8B59 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5971C477243F652C00BA8B59 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				5971C47A243F655600BA8B59 /* Model */,
+				5971C479243F655000BA8B59 /* ViewModel */,
+				5971C478243F654900BA8B59 /* View */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		5971C478243F654900BA8B59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5971C48B243FBDD000BA8B59 /* Custom */,
+				5971C47B243F657000BA8B59 /* CharactersListViewController.swift */,
+				5971C4962444F56700BA8B59 /* CharacterDetailViewController.swift */,
+				5971C49A2446021300BA8B59 /* PriciestCharacterHQViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5971C479243F655000BA8B59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5971C487243FAC8000BA8B59 /* CharactersListViewModel.swift */,
+				5971C49C2446054300BA8B59 /* PriciestCharacterHQViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5971C47A243F655600BA8B59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5971C485243F742B00BA8B59 /* MarvelCharacter.swift */,
+				5971C49E2446057600BA8B59 /* MarvelHQ.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5971C47D243F66FB00BA8B59 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5971C472243F581500BA8B59 /* MarvelRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5971C47E243F670C00BA8B59 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5971C470243F578E00BA8B59 /* MarvelRequestProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5971C47F243F674800BA8B59 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5971C48E2444981C00BA8B59 /* Helpers+Extensions */,
+				5971C480243F675000BA8B59 /* Components */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5971C480243F675000BA8B59 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5971C481243F67B900BA8B59 /* MarvelNavigationController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5971C48B243FBDD000BA8B59 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5971C489243FBAFE00BA8B59 /* CharacterCollectionViewCell.swift */,
+				5971C48C243FBE0100BA8B59 /* CharacterCollectionViewCell.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5971C48E2444981C00BA8B59 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5971C4932444A14800BA8B59 /* UINavigationController+Extension.swift */,
+				5971C4982445E47D00BA8B59 /* UIViewController+Extension.swift */,
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		60F9056A08150CF358EAB605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42D0CE8FEAB05F526D8189B /* Pods-desafio-ios-romulo-mantovani.debug.xcconfig */,
+				0ECC815A29D934F81DDF401D /* Pods-desafio-ios-romulo-mantovani.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D59FC90F2E9EFBAFE68A2C87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD04EC0091E7D36D25FE9ABE /* Pods_desafio_ios_romulo_mantovani.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5971C464243D17AD00BA8B59 /* Build configuration list for PBXNativeTarget "desafio-ios-romulo-mantovani" */;
 			buildPhases = (
+				096C88A94DE3C2C019CA1B27 /* [CP] Check Pods Manifest.lock */,
 				5971C44C243D17AA00BA8B59 /* Sources */,
 				5971C44D243D17AA00BA8B59 /* Frameworks */,
 				5971C44E243D17AA00BA8B59 /* Resources */,
+				31EA39FA799B81374D569D8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +344,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				5971C460243D17AD00BA8B59 /* LaunchScreen.storyboard in Resources */,
+				5971C484243F692000BA8B59 /* Colors.xcassets in Resources */,
 				5971C45D243D17AD00BA8B59 /* Assets.xcassets in Resources */,
+				5971C48D243FBE0100BA8B59 /* CharacterCollectionViewCell.xib in Resources */,
 				5971C45B243D17AA00BA8B59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096C88A94DE3C2C019CA1B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-ios-romulo-mantovani-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31EA39FA799B81374D569D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-romulo-mantovani/Pods-desafio-ios-romulo-mantovani-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-romulo-mantovani/Pods-desafio-ios-romulo-mantovani-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-romulo-mantovani/Pods-desafio-ios-romulo-mantovani-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5971C44C243D17AA00BA8B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5971C458243D17AA00BA8B59 /* ViewController.swift in Sources */,
+				5971C48A243FBAFE00BA8B59 /* CharacterCollectionViewCell.swift in Sources */,
+				5971C49B2446021300BA8B59 /* PriciestCharacterHQViewController.swift in Sources */,
+				5971C49224449A9400BA8B59 /* Colors.swift in Sources */,
+				5971C488243FAC8000BA8B59 /* CharactersListViewModel.swift in Sources */,
+				5971C4992445E47D00BA8B59 /* UIViewController+Extension.swift in Sources */,
+				5971C46C243D202900BA8B59 /* CharactersAPI.swift in Sources */,
+				5971C49F2446057600BA8B59 /* MarvelHQ.swift in Sources */,
+				5971C476243F59B800BA8B59 /* DataManager.swift in Sources */,
+				5971C4942444A14800BA8B59 /* UINavigationController+Extension.swift in Sources */,
+				5971C47C243F657000BA8B59 /* CharactersListViewController.swift in Sources */,
+				5971C486243F742B00BA8B59 /* MarvelCharacter.swift in Sources */,
+				5971C49D2446054300BA8B59 /* PriciestCharacterHQViewModel.swift in Sources */,
+				5971C482243F67B900BA8B59 /* MarvelNavigationController.swift in Sources */,
 				5971C454243D17AA00BA8B59 /* AppDelegate.swift in Sources */,
-				5971C456243D17AA00BA8B59 /* SceneDelegate.swift in Sources */,
+				5971C4972444F56700BA8B59 /* CharacterDetailViewController.swift in Sources */,
+				5971C473243F581500BA8B59 /* MarvelRequest.swift in Sources */,
+				5971C471243F578E00BA8B59 /* MarvelRequestProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +558,13 @@
 		};
 		5971C465243D17AD00BA8B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42D0CE8FEAB05F526D8189B /* Pods-desafio-ios-romulo-mantovani.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "desafio-ios-romulo-mantovani/Info.plist";
+				DEVELOPMENT_TEAM = 5DJ2TMTT3A;
+				INFOPLIST_FILE = "desafio-ios-romulo-mantovani/Configs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,16 +572,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "desafio-ios-romulo-mantovani.desafio-ios-romulo-mantovani";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5971C466243D17AD00BA8B59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECC815A29D934F81DDF401D /* Pods-desafio-ios-romulo-mantovani.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "desafio-ios-romulo-mantovani/Info.plist";
+				DEVELOPMENT_TEAM = 5DJ2TMTT3A;
+				INFOPLIST_FILE = "desafio-ios-romulo-mantovani/Configs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "desafio-ios-romulo-mantovani.desafio-ios-romulo-mantovani";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

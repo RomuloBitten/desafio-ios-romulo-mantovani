@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CharacterDetailViewController.setupNameLabel():CharacterDetailViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharacterCollectionViewCell.layoutSubviews():CharacterCollectionViewCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharacterCollectionViewCell.setupUI():CharacterCollectionViewCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UINavigationController.setStatusBar(backgroundColor:):UINavigationController+Extension.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CharactersListViewModel.rx_retrieveNextPage():CharactersListViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.collectionView(_:numberOfItemsInSection:):CharactersListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.totalPages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.collectionView(_:cellForItemAt:):CharactersListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MarvelRequest.call():MarvelRequest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in MarvelRequest.callData():MarvelRequest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharacterCollectionViewCell.setup(withChar:):CharacterCollectionViewCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewModel.rx_retrieveNextPage():CharactersListViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in MarvelRequest.call():MarvelRequest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.collectionView(_:didSelectItemAt:):CharactersListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.nameLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.scrollViewDidEndDragging(_:willDecelerate:):CharactersListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.contentOffset.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.scrollViewDidScroll(_:):CharactersListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharactersListViewController.scrollViewDidEndDecelerating(_:):CharactersListViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5A0FFDBF-6C85-470A-803E-0C92F83C26C3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53ACF5CA-3185-447D-A6AA-00194879F2FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "call()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53ACF5CA-3185-447D-A6AA-00194879F2FF - 4e99fac57a171516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;SwiftyJSON.JSON&gt;) -&gt; RxSwift.Disposable in desafio_ios_romulo_mantovani.MarvelRequest.call() -&gt; RxSwift.Observable&lt;SwiftyJSON.JSON&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "53ACF5CA-3185-447D-A6AA-00194879F2FF - e52b7f8ce8b26367"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in closure #1 (RxSwift.AnyObserver&lt;SwiftyJSON.JSON&gt;) -&gt; RxSwift.Disposable in desafio_ios_romulo_mantovani.MarvelRequest.call() -&gt; RxSwift.Observable&lt;SwiftyJSON.JSON&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "498">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8765084B-5621-4DD0-8138-84D43AB7ECA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "call()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D2D91C2-7043-4B83-87F1-9F13BD53BCB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Sections/Characters/ViewModel/PriciestCharacterHQViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "rx_retrievePriciestHQ(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D2D91C2-7043-4B83-87F1-9F13BD53BCB8 - 81232e5604dc4355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; Swift.Array&lt;desafio_ios_romulo_mantovani.MarvelHQ&gt; in desafio_ios_romulo_mantovani.PriciestCharacterHQViewModel.rx_retrievePriciestHQ(Swift.Int) -&gt; RxSwift.Observable&lt;desafio_ios_romulo_mantovani.MarvelHQ&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Sections/Characters/ViewModel/PriciestCharacterHQViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1427">
+               </Location>
+               <Location
+                  uuid = "0D2D91C2-7043-4B83-87F1-9F13BD53BCB8 - 3a39bbae3f294fed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (RxSwift.Event&lt;desafio_ios_romulo_mantovani.MarvelHQ&gt;) -&gt; () in closure #1 (SwiftyJSON.JSON) -&gt; Swift.Array&lt;desafio_ios_romulo_mantovani.MarvelHQ&gt; in desafio_ios_romulo_mantovani.PriciestCharacterHQViewModel.rx_retrievePriciestHQ(Swift.Int) -&gt; RxSwift.Observable&lt;desafio_ios_romulo_mantovani.MarvelHQ&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Sections/Characters/ViewModel/PriciestCharacterHQViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "134">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EBC04BE-23A3-4A76-A355-E9A88373D4F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Sections/Characters/ViewModel/PriciestCharacterHQViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "rx_retrievePriciestHQ(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74127BAF-AC0E-45F2-938C-3E9389F82FB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Sections/Characters/ViewModel/PriciestCharacterHQViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "rx_retrievePriciestHQ(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79EEED72-4618-4A7A-A8C4-E66C251FE139"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "call()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79EEED72-4618-4A7A-A8C4-E66C251FE139 - cf63e293e7b59896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "desafio_ios_romulo_mantovani.MarvelRequest.call() -&gt; RxSwift.Observable&lt;SwiftyJSON.JSON&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "707">
+               </Location>
+               <Location
+                  uuid = "79EEED72-4618-4A7A-A8C4-E66C251FE139 - 4e99fac57a171516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;SwiftyJSON.JSON&gt;) -&gt; RxSwift.Disposable in desafio_ios_romulo_mantovani.MarvelRequest.call() -&gt; RxSwift.Observable&lt;SwiftyJSON.JSON&gt;"
+                  moduleName = "desafio-ios-romulo-mantovani"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romulo.mantovani/Documents/projects/challenge/desafio-ios-romulo-mantovani/desafio-ios-romulo-mantovani/Commons/Implementation/Networking/MarvelRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
